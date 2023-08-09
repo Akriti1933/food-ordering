@@ -1,0 +1,16 @@
+.burger-skeleton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bread-top {
+  background-color: #ffbf00;
+  border-radius: 50%;
+}
+
+.patty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

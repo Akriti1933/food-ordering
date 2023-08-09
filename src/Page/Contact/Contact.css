@@ -1,0 +1,57 @@
+.contact-wrapper {
+  width: 100%;
+  height: calc(100vh - 66px);
+  margin-top: 66px;
+  padding: 2% 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contact-wrapper .title {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Poppins";
+  font-weight: 500;
+  color: #ffffff;
+  
+}
+
+.contact-wrapper fieldset {
+  min-width: fit-content;
+  border: 1px solid #ffffff;
+  width: 100%;
+  margin: 40px 0px;
+}
+
+.contact-wrapper fieldset legend {
+  float: none;
+  width: fit-content;
+  margin-left: 20px;
+  color: #ffffff;
+  margin-bottom: 0;
+  line-height: 0;
+  padding: 0px 4px;
+}
+
+.contact-wrapper fieldset .food-details {
+  text-align: left;
+  padding: 20px 20px;
+}
+
+.contact-wrapper fieldset .food-details h2 {
+  font-size: 1.8rem;
+  font-family: "Poppins";
+  font-weight: 500;
+  color: #ff0000;
+  margin: 0;
+}
+
+.contact-wrapper fieldset .food-details p {
+  font-size: 1.2rem;
+  font-family: "Poppins";
+  font-style: oblique;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0;
+}

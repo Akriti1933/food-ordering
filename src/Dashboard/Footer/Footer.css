@@ -1,0 +1,37 @@
+.footer-container {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  text-align: center;
+  padding: 22px 18px 8px 18px;
+  position: relative;
+  bottom: 0;
+  box-shadow: inset #ff0000 0px 0px 170px 1px;
+}
+
+.footer-container .title {
+  font-size: 2.4rem;
+  font-family: "Poppins";
+  font-weight: 500;
+  color: #ff0000;
+}
+
+.footer-container .quotation {
+  font-size: 1rem;
+  font-family: "Poppins";
+  font-style: oblique;
+  font-weight: 400;
+  color: #000000;
+}
+
+.footer-container .social-media i {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.footer-container .copyright {
+  font-size: 0.9rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  margin-top: 30px;
+}

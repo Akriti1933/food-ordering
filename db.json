@@ -1,0 +1,23 @@
+{
+  "post": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "users": [
+    {
+      "name": "sumiksha",
+      "email": "sumiksha123@gmail.com",
+      "address": "dhulikhel"
+    }
+  ],
+  "Admin": [
+    {
+      "name": "aakriti",
+      "email": "aakriti1359@gmail.com",
+      "address": "banepa"
+    }
+  ]
+}
