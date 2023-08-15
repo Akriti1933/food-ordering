@@ -11,6 +11,7 @@ const Header = () => {
   const currentRoute = location.pathname;
   const [value, setValue] = useState("");
   const [searchData, setSearchData] = useState([]);
+  const [options, setOptions] = useState([]);
 
 
   useEffect(() => {
@@ -19,7 +20,7 @@ const Header = () => {
         const searchData = response.data;
 
         const mappedOptions = searchData.map((item) => ({
-          value: item.resturent_name,
+          value: item.restaurant_name,
           label: item.id
         }));
 
@@ -30,8 +31,6 @@ const Header = () => {
       });
   }, []);
  
-  console.log("res.data", res.data)
-
   // const options = [
 
   //   { value: 'chocolate', label: 'Chocolate' },
@@ -115,8 +114,7 @@ const Header = () => {
               </ul>
 
             <div className="search-container">
-              {/* <Search value={value} setValue={setValue} /> */}
-              <Select options={options} />
+              <select options={options} />
 
             </div>
           </div>
